@@ -22,4 +22,4 @@ requireDir('./src/models');
 //primeira rota
 app.use('/api', require("./src/routes"));
 
-app.listen(3001);
+app.listen("https://apiconstas.herokuapp.com/");
